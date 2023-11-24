@@ -1,0 +1,19 @@
+system:
+    configured_version: 0.9.4
+    timezone: Europe/Paris
+    card_enabled: true
+    cal_enabled: true
+    dav_auth_type: Digest
+    admin_passwordhash: 96a6e283d4af43cf0f8dfee7c3d6ddc31096a7ea1be42584ff5dd2ce277d2a7d
+    failed_access_message: 'user %u authentication failure for Baikal'
+    auth_realm: BaikalDAV
+    base_uri: ''
+    invite_from: aabhashgauda
+database:
+    sqlite_file: /home/aeologic/Pictures/baikal-0.9.4/baikal/Specific/db/db.sqlite
+    mysql: true
+    mysql_host: localhost
+    mysql_dbname: baikal_db
+    mysql_username: root
+    mysql_password: password
+    encryption_key: b56149c2f395eaee7425b178b909da53
